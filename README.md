@@ -16,7 +16,7 @@ As written, it is intended to be deployed on **Cloud Foundry** instances that ex
 
 Aside from the API Key mentioned here, no real considerations have been made to secure the application.
 
-Ensure that `BLOBBER_API_KEY` is set, clients of this store should provide the same key as a header (`X-API_KEY`) when posting files.
+Ensure that `BLOBBER_API_KEY` is set, clients of this store should provide the same key as a header (`X-API-KEY`) when posting files.
 
 ```
 cf set-env [application-name] BLOBBER_API_KEY [inscrutable-key]
